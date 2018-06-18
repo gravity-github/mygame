@@ -7,6 +7,7 @@ class gameEngine(threading.Thread):
         self.frame = frame
     
     def update(self):
+        
         pass 
 
     def run(self):
