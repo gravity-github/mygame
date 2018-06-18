@@ -1,4 +1,4 @@
-class gameobject:
+class gameObject:
     def __init__(self,name='object'):
         self.property ={'name':name,'health':100,'point':0}
         self.position = {'x':None,'y':None}
