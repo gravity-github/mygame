@@ -5,9 +5,15 @@ class gameEngine(threading.Thread):
         threading.Thread.__init__(self)
         self.current_status=None 
         self.frame = frame
-    
+        self.game = None 
+
+    def initialize_game(self,game):
+        self.game = game 
+
     def update(self):
-        pass 
+        if self.game is None : raise Exception 
+        
+    
 
     def run(self):
         t1 = t2 = time.time()
