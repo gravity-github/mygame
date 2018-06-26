@@ -4,3 +4,4 @@ class gameObject:
     
     def add_property(self,property,value):
         self.property[property] = value
+        
